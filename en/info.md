@@ -7,9 +7,15 @@
 
 ### Unit 1 - am/is/are
 
+... 입니다.
+
 ### Unit 2 - am/is/are (questions)
 
-### Unit 3
+... 입니까?
+
+### Unit 3 - I am doing (present continuous)
+
+... 하고 있습니다.
 
 ### Unit 4
 
