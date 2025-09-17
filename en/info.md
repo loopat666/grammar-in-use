@@ -1,8 +1,11 @@
 # English - Basic Grammar in Use
 
 
-## 기본
+## 기본 
 
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+<span style="color: gold"> Some green text </span>
 
 ### Unit 1
 
