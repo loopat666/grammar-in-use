@@ -1,0 +1,363 @@
+{
+  "conversations": [
+    {
+      "id": 1,
+      "category": "인사",
+      "title": "Morning Greeting at Work",
+      "dialogue": [
+        { "speaker": "A", "en": "Good morning! How are you doing today?", "ko": "좋은 아침이에요! 오늘 어떠세요?" },
+        { "speaker": "B", "en": "I'm doing great, thanks! How about you?", "ko": "정말 좋아요, 감사해요! 당신은요?" },
+        { "speaker": "A", "en": "Pretty good. Ready to tackle the day!", "ko": "꽤 좋아요. 오늘 하루 열심히 해봐야죠!" }
+      ],
+      "key_expressions": ["How are you doing?", "I'm doing great.", "Ready to tackle the day"]
+    },
+    {
+      "id": 2,
+      "category": "카페",
+      "title": "Ordering Coffee",
+      "dialogue": [
+        { "speaker": "A", "en": "Hi, what can I get for you?", "ko": "안녕하세요, 무엇을 드릴까요?" },
+        { "speaker": "B", "en": "Can I get a medium latte, please?", "ko": "미디엄 라떼 한 잔 주시겠어요?" },
+        { "speaker": "A", "en": "Sure! Would you like that hot or iced?", "ko": "물론이죠! 핫으로 드릴까요, 아이스로 드릴까요?" },
+        { "speaker": "B", "en": "Iced, please. And can I have your name?", "ko": "아이스로 주세요. 이름이 어떻게 되세요?" }
+      ],
+      "key_expressions": ["Can I get ~?", "Would you like ~?", "Iced, please."]
+    },
+    {
+      "id": 3,
+      "category": "쇼핑",
+      "title": "Asking for Help in a Store",
+      "dialogue": [
+        { "speaker": "A", "en": "Excuse me, do you have this in a larger size?", "ko": "실례합니다, 이거 더 큰 사이즈 있나요?" },
+        { "speaker": "B", "en": "Let me check in the back for you.", "ko": "뒤쪽에서 확인해 드릴게요." },
+        { "speaker": "A", "en": "Thank you, I really appreciate it.", "ko": "감사합니다, 정말 감사해요." },
+        { "speaker": "B", "en": "Of course! I'll be right back.", "ko": "물론이죠! 금방 돌아올게요." }
+      ],
+      "key_expressions": ["Do you have this in ~?", "Let me check.", "I'll be right back."]
+    },
+    {
+      "id": 4,
+      "category": "직장",
+      "title": "Scheduling a Meeting",
+      "dialogue": [
+        { "speaker": "A", "en": "Are you free tomorrow afternoon for a quick meeting?", "ko": "내일 오후에 짧은 회의 가능하신가요?" },
+        { "speaker": "B", "en": "I have something at 2, but I'm free after 3.", "ko": "2시에 일정이 있는데, 3시 이후에는 괜찮아요." },
+        { "speaker": "A", "en": "Perfect. Let's say 3:30 then.", "ko": "좋아요. 그럼 3시 30분으로 하죠." },
+        { "speaker": "B", "en": "Sounds good. I'll send you a calendar invite.", "ko": "좋습니다. 캘린더 초대장 보내드릴게요." }
+      ],
+      "key_expressions": ["Are you free ~?", "I'm free after ~.", "Sounds good."]
+    },
+    {
+      "id": 5,
+      "category": "식당",
+      "title": "At a Restaurant",
+      "dialogue": [
+        { "speaker": "A", "en": "Hi, a table for two, please.", "ko": "안녕하세요, 두 명 자리 부탁합니다." },
+        { "speaker": "B", "en": "Right this way. Can I start you off with something to drink?", "ko": "이쪽으로 오세요. 음료부터 주문하시겠어요?" },
+        { "speaker": "A", "en": "Yes, just water for now, thank you.", "ko": "네, 일단 물만 주세요, 감사합니다." },
+        { "speaker": "B", "en": "I'll be back to take your order in a moment.", "ko": "잠시 후 주문 받으러 오겠습니다." }
+      ],
+      "key_expressions": ["A table for two.", "Can I start you off with ~?", "I'll be back in a moment."]
+    },
+    {
+      "id": 6,
+      "category": "교통",
+      "title": "Asking for Directions",
+      "dialogue": [
+        { "speaker": "A", "en": "Excuse me, how do I get to the nearest subway station?", "ko": "실례합니다, 가장 가까운 지하철역에 어떻게 가나요?" },
+        { "speaker": "B", "en": "Go straight for two blocks and then turn left.", "ko": "두 블록 직진하신 다음 왼쪽으로 돌아가세요." },
+        { "speaker": "A", "en": "Is it within walking distance?", "ko": "걸어서 갈 수 있는 거리인가요?" },
+        { "speaker": "B", "en": "Yes, about a 5-minute walk.", "ko": "네, 걸어서 약 5분이에요." }
+      ],
+      "key_expressions": ["How do I get to ~?", "Go straight.", "Within walking distance"]
+    },
+    {
+      "id": 7,
+      "category": "전화",
+      "title": "Making a Phone Call",
+      "dialogue": [
+        { "speaker": "A", "en": "Hello, this is Sarah. May I speak with Mr. Kim?", "ko": "여보세요, 저는 사라입니다. 김 선생님과 통화할 수 있을까요?" },
+        { "speaker": "B", "en": "He's not available right now. Can I take a message?", "ko": "지금 자리를 비우셨어요. 메시지를 남겨드릴까요?" },
+        { "speaker": "A", "en": "Yes, please tell him I called and ask him to call me back.", "ko": "네, 제가 전화했다고 전해주시고 다시 전화해 달라고 부탁해 주세요." },
+        { "speaker": "B", "en": "Of course. I'll pass along the message.", "ko": "물론이죠. 전달해 드리겠습니다." }
+      ],
+      "key_expressions": ["May I speak with ~?", "Can I take a message?", "Call me back"]
+    },
+    {
+      "id": 8,
+      "category": "날씨",
+      "title": "Talking About the Weather",
+      "dialogue": [
+        { "speaker": "A", "en": "What a beautiful day! It's so sunny outside.", "ko": "정말 날씨 좋다! 밖에 햇살이 참 좋네요." },
+        { "speaker": "B", "en": "I know! Perfect weather for a walk.", "ko": "맞아요! 산책하기 딱 좋은 날씨네요." },
+        { "speaker": "A", "en": "Did you hear it might rain this weekend?", "ko": "이번 주말에 비가 올 수도 있다는 거 들었어요?" },
+        { "speaker": "B", "en": "Really? I guess I'll have to change my plans.", "ko": "정말요? 계획을 바꿔야 할 것 같네요." }
+      ],
+      "key_expressions": ["What a beautiful day!", "Perfect weather for ~", "I guess I'll have to ~"]
+    },
+    {
+      "id": 9,
+      "category": "건강",
+      "title": "At the Doctor's Office",
+      "dialogue": [
+        { "speaker": "A", "en": "I haven't been feeling well for a few days.", "ko": "며칠째 몸이 좋지 않아요." },
+        { "speaker": "B", "en": "What are your symptoms?", "ko": "증상이 어떠세요?" },
+        { "speaker": "A", "en": "I have a sore throat and a slight fever.", "ko": "목이 아프고 미열이 있어요." },
+        { "speaker": "B", "en": "Let me take a look. Open your mouth wide, please.", "ko": "살펴볼게요. 입을 크게 벌려주세요." }
+      ],
+      "key_expressions": ["I haven't been feeling well.", "What are your symptoms?", "Slight fever"]
+    },
+    {
+      "id": 10,
+      "category": "여행",
+      "title": "Checking into a Hotel",
+      "dialogue": [
+        { "speaker": "A", "en": "Hi, I have a reservation under the name Johnson.", "ko": "안녕하세요, 존슨 이름으로 예약했습니다." },
+        { "speaker": "B", "en": "Welcome! Let me pull up your reservation.", "ko": "환영합니다! 예약을 찾아볼게요." },
+        { "speaker": "A", "en": "I'd like an early check-in if possible.", "ko": "가능하다면 일찍 체크인하고 싶어요." },
+        { "speaker": "B", "en": "Your room is ready. Here's your key card.", "ko": "방이 준비되었습니다. 여기 키카드입니다." }
+      ],
+      "key_expressions": ["I have a reservation under ~.", "Early check-in", "Here's your key card."]
+    },
+    {
+      "id": 11,
+      "category": "친구",
+      "title": "Making Weekend Plans",
+      "dialogue": [
+        { "speaker": "A", "en": "Do you have any plans this weekend?", "ko": "이번 주말에 계획 있어요?" },
+        { "speaker": "B", "en": "Not really. What do you have in mind?", "ko": "특별히 없어요. 뭐 생각하는 거 있어요?" },
+        { "speaker": "A", "en": "Want to grab lunch and catch a movie?", "ko": "점심 먹고 영화 볼래요?" },
+        { "speaker": "B", "en": "That sounds like fun! I'm in.", "ko": "재밌겠다! 저 낄게요." }
+      ],
+      "key_expressions": ["Do you have any plans?", "What do you have in mind?", "I'm in."]
+    },
+    {
+      "id": 12,
+      "category": "쇼핑",
+      "title": "Returning an Item",
+      "dialogue": [
+        { "speaker": "A", "en": "I'd like to return this jacket. It doesn't fit right.", "ko": "이 재킷을 반품하고 싶어요. 사이즈가 맞지 않아서요." },
+        { "speaker": "B", "en": "Do you have your receipt?", "ko": "영수증 갖고 계세요?" },
+        { "speaker": "A", "en": "Yes, here it is. I bought it three days ago.", "ko": "네, 여기 있어요. 3일 전에 샀어요." },
+        { "speaker": "B", "en": "No problem. Would you like an exchange or a refund?", "ko": "문제없어요. 교환을 원하세요, 환불을 원하세요?" }
+      ],
+      "key_expressions": ["I'd like to return ~.", "Do you have your receipt?", "Exchange or refund"]
+    },
+    {
+      "id": 13,
+      "category": "직장",
+      "title": "Asking for Help at Work",
+      "dialogue": [
+        { "speaker": "A", "en": "Do you have a minute? I could use some help.", "ko": "잠깐 시간 있어요? 도움이 필요해서요." },
+        { "speaker": "B", "en": "Sure, what's up?", "ko": "그럼요, 무슨 일이에요?" },
+        { "speaker": "A", "en": "I'm having trouble with this spreadsheet formula.", "ko": "이 스프레드시트 수식 때문에 어려움이 있어요." },
+        { "speaker": "B", "en": "Let me take a look. I think I can fix it.", "ko": "한번 볼게요. 제가 고칠 수 있을 것 같아요." }
+      ],
+      "key_expressions": ["Do you have a minute?", "I could use some help.", "I'm having trouble with ~."]
+    },
+    {
+      "id": 14,
+      "category": "교통",
+      "title": "Taking a Taxi",
+      "dialogue": [
+        { "speaker": "A", "en": "Can you take me to the airport, please?", "ko": "공항까지 데려다 주시겠어요?" },
+        { "speaker": "B", "en": "Sure. Which terminal?", "ko": "물론이죠. 어느 터미널이요?" },
+        { "speaker": "A", "en": "Terminal 2, Korean Air.", "ko": "2터미널, 대한항공이요." },
+        { "speaker": "B", "en": "Got it. It'll take about 30 minutes.", "ko": "알겠습니다. 약 30분 걸릴 것 같아요." }
+      ],
+      "key_expressions": ["Can you take me to ~?", "Which terminal?", "It'll take about ~."]
+    },
+    {
+      "id": 15,
+      "category": "음식",
+      "title": "Ordering Food for Delivery",
+      "dialogue": [
+        { "speaker": "A", "en": "I'd like to place an order for delivery.", "ko": "배달 주문하고 싶은데요." },
+        { "speaker": "B", "en": "What would you like to order?", "ko": "무엇을 주문하시겠어요?" },
+        { "speaker": "A", "en": "One large pepperoni pizza and a side salad.", "ko": "라지 페퍼로니 피자 하나와 사이드 샐러드요." },
+        { "speaker": "B", "en": "Estimated delivery time is 30 to 40 minutes.", "ko": "예상 배달 시간은 30~40분입니다." }
+      ],
+      "key_expressions": ["I'd like to place an order.", "What would you like to order?", "Estimated delivery time"]
+    },
+    {
+      "id": 16,
+      "category": "인사",
+      "title": "Meeting Someone New",
+      "dialogue": [
+        { "speaker": "A", "en": "Hi, I don't think we've met. I'm David.", "ko": "안녕하세요, 처음 만나는 것 같은데요. 저는 데이비드예요." },
+        { "speaker": "B", "en": "Nice to meet you, David. I'm Mina.", "ko": "만나서 반가워요, 데이비드. 저는 미나예요." },
+        { "speaker": "A", "en": "Are you new here? I haven't seen you around.", "ko": "여기 처음이세요? 본 적이 없는 것 같아서요." },
+        { "speaker": "B", "en": "Yes, I just started last week.", "ko": "네, 지난주에 막 시작했어요." }
+      ],
+      "key_expressions": ["I don't think we've met.", "Nice to meet you.", "I just started ~."]
+    },
+    {
+      "id": 17,
+      "category": "건강",
+      "title": "Talking About Exercise",
+      "dialogue": [
+        { "speaker": "A", "en": "Do you work out regularly?", "ko": "규칙적으로 운동하세요?" },
+        { "speaker": "B", "en": "I try to go to the gym three times a week.", "ko": "일주일에 세 번 헬스장에 가려고 노력해요." },
+        { "speaker": "A", "en": "That's impressive. What kind of exercise do you do?", "ko": "대단하네요. 어떤 운동을 하세요?" },
+        { "speaker": "B", "en": "Mostly cardio and some weight training.", "ko": "주로 유산소 운동이랑 웨이트 트레이닝을 해요." }
+      ],
+      "key_expressions": ["Do you work out?", "Three times a week", "Mostly ~ and some ~"]
+    },
+    {
+      "id": 18,
+      "category": "여행",
+      "title": "At the Airport",
+      "dialogue": [
+        { "speaker": "A", "en": "I'd like to check in for my flight to New York.", "ko": "뉴욕행 비행기 체크인하고 싶어요." },
+        { "speaker": "B", "en": "Can I see your passport and ticket, please?", "ko": "여권과 티켓을 보여주시겠어요?" },
+        { "speaker": "A", "en": "Here you go. Do I have any baggage allowance?", "ko": "여기 있어요. 수하물 허용량이 얼마나 되나요?" },
+        { "speaker": "B", "en": "You're allowed one checked bag up to 23 kilograms.", "ko": "23킬로그램까지 수하물 하나를 부칠 수 있어요." }
+      ],
+      "key_expressions": ["I'd like to check in.", "Baggage allowance", "Up to ~ kilograms"]
+    },
+    {
+      "id": 19,
+      "category": "공부",
+      "title": "Asking About a Class",
+      "dialogue": [
+        { "speaker": "A", "en": "Did you understand the lecture today?", "ko": "오늘 강의 이해했어요?" },
+        { "speaker": "B", "en": "Not really. The professor went too fast.", "ko": "그다지요. 교수님이 너무 빨리 진행하셨어요." },
+        { "speaker": "A", "en": "Same. Want to study together before the exam?", "ko": "저도요. 시험 전에 같이 공부할래요?" },
+        { "speaker": "B", "en": "Definitely. How about Friday evening?", "ko": "물론이죠. 금요일 저녁 어때요?" }
+      ],
+      "key_expressions": ["Did you understand ~?", "Want to study together?", "How about ~?"]
+    },
+    {
+      "id": 20,
+      "category": "집",
+      "title": "Talking to a Neighbor",
+      "dialogue": [
+        { "speaker": "A", "en": "Hey, have you heard about the new park they're building?", "ko": "저기, 새로 짓는 공원에 대해 들었어요?" },
+        { "speaker": "B", "en": "Yes! It's supposed to open next spring.", "ko": "네! 내년 봄에 개장할 예정이래요." },
+        { "speaker": "A", "en": "That'll be great for the neighborhood.", "ko": "동네에 정말 좋겠네요." },
+        { "speaker": "B", "en": "Absolutely. My kids will love it.", "ko": "물론이죠. 아이들이 정말 좋아할 것 같아요." }
+      ],
+      "key_expressions": ["Have you heard about ~?", "It's supposed to ~.", "That'll be great for ~."]
+    },
+    {
+      "id": 21,
+      "category": "은행",
+      "title": "At the Bank",
+      "dialogue": [
+        { "speaker": "A", "en": "I'd like to open a savings account.", "ko": "적금 계좌를 개설하고 싶어요." },
+        { "speaker": "B", "en": "Sure. Do you have an ID with you?", "ko": "물론이죠. 신분증 갖고 계세요?" },
+        { "speaker": "A", "en": "Yes, here's my passport.", "ko": "네, 여기 여권 있어요." },
+        { "speaker": "B", "en": "Great. What would you like to use as your initial deposit?", "ko": "좋습니다. 초기 입금액은 얼마로 하시겠어요?" }
+      ],
+      "key_expressions": ["I'd like to open ~.", "Do you have an ID?", "Initial deposit"]
+    },
+    {
+      "id": 22,
+      "category": "취미",
+      "title": "Talking About Hobbies",
+      "dialogue": [
+        { "speaker": "A", "en": "What do you do in your free time?", "ko": "여가 시간에 뭐 해요?" },
+        { "speaker": "B", "en": "I enjoy reading and hiking. What about you?", "ko": "독서랑 하이킹을 즐겨요. 당신은요?" },
+        { "speaker": "A", "en": "I'm really into photography lately.", "ko": "요즘 사진 찍는 데 빠져 있어요." },
+        { "speaker": "B", "en": "That's a great hobby. Do you post your photos anywhere?", "ko": "멋진 취미네요. 사진을 어딘가에 올리나요?" }
+      ],
+      "key_expressions": ["What do you do in your free time?", "I'm really into ~.", "Great hobby"]
+    },
+    {
+      "id": 23,
+      "category": "음식",
+      "title": "Cooking Together",
+      "dialogue": [
+        { "speaker": "A", "en": "Can you pass me the salt, please?", "ko": "소금 좀 건네줄 수 있어요?" },
+        { "speaker": "B", "en": "Sure. How much do you need?", "ko": "물론이죠. 얼마나 필요해요?" },
+        { "speaker": "A", "en": "Just a pinch. I don't want it too salty.", "ko": "조금만요. 너무 짜게 하고 싶지 않아서요." },
+        { "speaker": "B", "en": "It smells amazing! What are you making?", "ko": "냄새 정말 좋다! 무엇을 만들고 있어요?" }
+      ],
+      "key_expressions": ["Can you pass me ~?", "Just a pinch", "It smells amazing!"]
+    },
+    {
+      "id": 24,
+      "category": "기술",
+      "title": "Tech Troubleshooting",
+      "dialogue": [
+        { "speaker": "A", "en": "My computer keeps freezing. Any idea what's wrong?", "ko": "컴퓨터가 계속 멈춰요. 뭐가 문제인지 알아요?" },
+        { "speaker": "B", "en": "Have you tried restarting it?", "ko": "재시작 해봤어요?" },
+        { "speaker": "A", "en": "Yes, but it didn't help.", "ko": "네, 그런데 도움이 안 됐어요." },
+        { "speaker": "B", "en": "It might be a memory issue. Let me take a look.", "ko": "메모리 문제일 수 있어요. 제가 한번 볼게요." }
+      ],
+      "key_expressions": ["It keeps ~ing.", "Have you tried ~?", "It might be ~."]
+    },
+    {
+      "id": 25,
+      "category": "칭찬",
+      "title": "Giving a Compliment",
+      "dialogue": [
+        { "speaker": "A", "en": "I love your presentation today. It was really insightful.", "ko": "오늘 발표 정말 좋았어요. 정말 통찰력 있었어요." },
+        { "speaker": "B", "en": "Thank you so much! That means a lot to me.", "ko": "정말 감사해요! 제게 정말 큰 의미예요." },
+        { "speaker": "A", "en": "You clearly put a lot of work into it.", "ko": "정말 많은 노력을 기울인 게 보였어요." },
+        { "speaker": "B", "en": "I did! I'm glad it came across well.", "ko": "맞아요! 잘 전달됐다니 기쁘네요." }
+      ],
+      "key_expressions": ["That means a lot to me.", "You clearly ~.", "I'm glad it came across well."]
+    },
+    {
+      "id": 26,
+      "category": "감사",
+      "title": "Expressing Gratitude",
+      "dialogue": [
+        { "speaker": "A", "en": "Thank you so much for your help yesterday.", "ko": "어제 도와줘서 정말 감사해요." },
+        { "speaker": "B", "en": "Don't mention it! I was happy to help.", "ko": "별말씀을요! 도와드릴 수 있어서 좋았어요." },
+        { "speaker": "A", "en": "Seriously, I couldn't have done it without you.", "ko": "진심으로, 당신 없이는 못 했을 거예요." },
+        { "speaker": "B", "en": "Anytime. That's what friends are for.", "ko": "언제든지요. 친구끼리 그러는 거죠." }
+      ],
+      "key_expressions": ["Don't mention it.", "I couldn't have done it without you.", "That's what friends are for."]
+    },
+    {
+      "id": 27,
+      "category": "약속",
+      "title": "Confirming Plans",
+      "dialogue": [
+        { "speaker": "A", "en": "Are we still on for dinner tonight?", "ko": "오늘 저녁 약속 아직 유효한 거죠?" },
+        { "speaker": "B", "en": "Yes! I'm looking forward to it.", "ko": "네! 기대하고 있어요." },
+        { "speaker": "A", "en": "Should we meet at the restaurant or somewhere else?", "ko": "식당에서 만날까요, 아니면 다른 곳에서 만날까요?" },
+        { "speaker": "B", "en": "Let's meet at the restaurant at 7.", "ko": "7시에 식당에서 만나요." }
+      ],
+      "key_expressions": ["Are we still on for ~?", "I'm looking forward to it.", "Let's meet at ~."]
+    },
+    {
+      "id": 28,
+      "category": "사과",
+      "title": "Apologizing",
+      "dialogue": [
+        { "speaker": "A", "en": "I'm so sorry I'm late. Traffic was terrible.", "ko": "늦어서 정말 죄송해요. 교통이 너무 막혔어요." },
+        { "speaker": "B", "en": "No worries, it happens. Are you okay?", "ko": "걱정 마세요, 그럴 수 있죠. 괜찮아요?" },
+        { "speaker": "A", "en": "Yes, I'm fine. Sorry for keeping you waiting.", "ko": "네, 괜찮아요. 기다리게 해서 미안해요." },
+        { "speaker": "B", "en": "Really, it's okay. I just got here myself.", "ko": "진짜로, 괜찮아요. 저도 막 도착했어요." }
+      ],
+      "key_expressions": ["I'm so sorry I'm late.", "No worries.", "Sorry for keeping you waiting."]
+    },
+    {
+      "id": 29,
+      "category": "집",
+      "title": "Talking About Home",
+      "dialogue": [
+        { "speaker": "A", "en": "Did you just move into this neighborhood?", "ko": "이 동네로 이사 오신 건가요?" },
+        { "speaker": "B", "en": "Yes, just last month. Still getting settled.", "ko": "네, 지난달에요. 아직 정착하는 중이에요." },
+        { "speaker": "A", "en": "Welcome! It's a great area.", "ko": "환영해요! 정말 좋은 동네예요." },
+        { "speaker": "B", "en": "Thanks. Everyone seems very friendly.", "ko": "감사해요. 다들 정말 친절한 것 같아요." }
+      ],
+      "key_expressions": ["Did you just move?", "Getting settled", "Everyone seems very ~."]
+    },
+    {
+      "id": 30,
+      "category": "취업",
+      "title": "Job Interview Small Talk",
+      "dialogue": [
+        { "speaker": "A", "en": "Did you have any trouble finding us?", "ko": "저희 회사 찾는 데 어려움이 없었나요?" },
+        { "speaker": "B", "en": "Not at all. The directions on your website were very clear.", "ko": "전혀요. 홈페이지에 나온 길 안내가 아주 명확했어요." },
+        { "speaker": "A", "en": "Great. Can I get you anything before we start?", "ko": "좋아요. 시작하기 전에 뭐 가져다 드릴까요?" },
+        { "speaker": "B", "en": "No thank you. I'm all set.", "ko": "괜찮습니다. 저는 준비됐어요." }
+      ],
+      "key_expressions": ["Did you have any trouble ~?", "Not at all.", "I'm all set."]
+    }
+  ]
+}
